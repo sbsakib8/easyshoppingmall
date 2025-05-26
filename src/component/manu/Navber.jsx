@@ -3,7 +3,7 @@ import Topheader from "../header/Topheader"
 
 function Navber() {
   return (
-    <div>
+    <div className="bg-white shadow-md sticky top-0 z-50">
          <Topheader />
          <Menuber />
     </div>

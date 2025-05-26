@@ -17,7 +17,8 @@ import Accordionmenu from './Accordionmenu';
     setOpen(newOpen);
   };
 
-  const DrawerList = (
+
+  const DrawdList = (
     <Box sx={{ width: 250 }} role="presentation" >
       <List>
         <Accordionmenu />
@@ -26,16 +27,16 @@ import Accordionmenu from './Accordionmenu';
       <List>
         
       </List>
-    </Box>
+        </Box>
   );
 
   return (
     <div className='w-[30px] h-[30px] mx-auto!'>
-      <Button onClick={toggleDrawer(true)} className='text-white! text-4xl! -mt-[16px]!  mx-auto!'>
+      <Button  onClick={toggleDrawer(true)} className='text-white! text-4xl! -mt-[16px]!  mx-auto!'>
         {open ?  <MdOutlineMenu /> : <MdOutlineMenuOpen />}
       </Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
-        {DrawerList}
+        {DrawdList}
       </Drawer>
     </div>
   );

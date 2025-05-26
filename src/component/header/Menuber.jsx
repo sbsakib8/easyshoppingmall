@@ -8,8 +8,9 @@ function Menuber() {
         <div>
           <Button className='text-black! font-bold! text-[20px]! font-body!'><Link href="/">Home</Link></Button>
         </div>
-        <div className="group relative">
-          <Button className="!text-black !text-[18px] font-body!"><Link href="/fashion">Fashion</Link></Button>
+
+        <div className="group relative z-50">
+          <Button className="!text-black  !text-[18px] font-body!"><Link href="/fashion" className=''>Fashion</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
             <Button className="!text-black font-body!  !text-[16px]  w-full! "><Link href='/women'>Women</Link></Button>
@@ -17,7 +18,7 @@ function Menuber() {
           </div>
         </div>
 
-        <div className="group relative">
+        <div className="group relative  z-50">
           <Button className="!text-black !text-[18px] font-body!"><Link href="/fashion">Electronics</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
@@ -25,7 +26,7 @@ function Menuber() {
             <Button className="!text-black font-body!  !text-[16px]   w-full!"><Link href='/kids'>Kids</Link></Button>
           </div>
         </div>
-        <div className="group relative">
+        <div className="group relative  z-50">
           <Button className="!text-black !text-[18px] font-body!"><Link href="/bags">Bags</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
@@ -34,7 +35,7 @@ function Menuber() {
           </div>
         </div>
 
-        <div className="group relative">
+        <div className="group relative  z-50">
           <Button className="!text-black !text-[18px] font-body!"><Link href="/footwear">Footwear</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
@@ -43,7 +44,7 @@ function Menuber() {
           </div>
         </div>
 
-        <div className="group relative">
+        <div className="group relative  z-50">
           <Button className="!text-black !text-[18px] font-body!"><Link href="/beauty">Beauty</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
@@ -52,7 +53,7 @@ function Menuber() {
           </div>
         </div>
 
-        <div className="group relative">
+        <div className="group relative  z-50">
           <Button className="!text-black !text-[18px] font-body!"><Link href="/shop">Shop</Link></Button>
           <div className="absolute left-0 mt-4 space-y-2 opacity-0 group-hover:opacity-100 group-hover:block transition-opacity duration-300 bg-white px-4 py-2 shadow-lg">
             <Button className="!text-black font-body!  !text-[16px]  w-full!"><Link href='/men'>Men</Link></Button>
